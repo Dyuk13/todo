@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.todo__list {
+	width: 375px;
+	background-color:#B678FF ;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.todo__list .name__todo {
+	display: flex;
+	width: 100%;
+	justify-content: right;
+	
+}
+
+.todo__list .items__todo {
+	display: flex;
+	flex-direction: row;
+	height: 60px;
+	align-items: center;
+	padding: 16px;
+	border: 1px solid white;
+	
+}
+.todo__list .items__todo .check__todo {
+	
+	margin: 0 16px 0 0;
+
+}
+
+.todo__list .items__todo input {
+	color: #DADADA;	
+	margin: 0 16px 0 0;
+	display: none;
+
+}
+
+
+.todo__list .items__todo p {
+	color: white;
+	font-size: 18px;
+}
+
+.task__remove-label {
+	display: block;
+	width:  20px;
+	height: 20px;
+	border:  1px solid #ffffff;
+	border-radius: 100%;
+
+}
